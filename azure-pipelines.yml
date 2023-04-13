@@ -17,7 +17,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   solution: '**/*.sln'
-  artifactName: 'mvcartifact'
+  artifactName: 'devOp-MVC-Agile-Lab3-Ex2'
 
 steps:
 - task: DotNetCoreCLI@2
