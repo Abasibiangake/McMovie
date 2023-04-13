@@ -53,5 +53,5 @@ steps:
   displayName: 'Publish build artifact'
   inputs:
     pathtoPublish: '$(Build.ArtifactStagingDirectory)/$(artifactName).zip'
-    artifactName: 'mcmovie'
+    artifactName: 'mvcartifact'
     publishLocation: 'Container'
